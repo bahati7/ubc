@@ -79,9 +79,9 @@
                         <div class="collapse navbar-collapse" id="main_nav">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Acceuil</a>
+                                    <a class="nav-link dropdown-toggle active" href="<?php echo site_url();?>" data-bs-toggle="dropdown">Acceuil</a>
                                     <ul class="dropdown-menu fade-down">
-                                        <li><a class="dropdown-item" href="index.html">Domaines de formation</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo site_url('/domaines');?>">Domaines de formation</a></li>
                                         <li><a class="dropdown-item" href="index-2.html">Recherche</a></li>
                                         <li><a class="dropdown-item" href="index-3.html">Service à la communauté</a></li>
                                         <li><a class="dropdown-item" href="index-3.html">Bourses</a></li>

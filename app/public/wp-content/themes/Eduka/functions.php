@@ -116,3 +116,37 @@ function mytheme_enqueue_scripts() {
     );
 }
 add_action('wp_enqueue_scripts', 'mytheme_enqueue_scripts');
+?>
+
+<?php
+//banner image function
+function banner_image_setup($args = NULL) {
+     //code for if conditions for title and description
+    if( !$args['image'] ) {
+        if (get_field('background_image')){
+            $backgroundImage = get_field('background_image'); 
+            $args['image'] = $backgroundImage['url'];
+        }
+        else
+            $args['image'] =  get_theme_file_uri('/assets/img/breadcrumb/02.jpg'); 
+    }
+      if( !$args['description'] ) {
+        $args['description'] = get_field('description');
+        }
+    ?>
+  <div class="site-breadcrumb" style="background-image: url('<?php echo $args['image']; ?>');">
+            <div class="container">
+                <h2 class="breadcrumb-title"><?php echo $args['description']; ?></h2>
+                <ul class="breadcrumb-menu">
+                    <?php
+                        $parentPage = wp_get_post_parent_id( get_the_ID());
+                        if($parentPage){ ?>
+                    <li><a href="/"><?php echo get_the_title($parentPage) ?></a></li>
+                    <li class="active"><?php the_title() ?></li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+<?php
+}
+?>
