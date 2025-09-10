@@ -141,7 +141,7 @@
                                      
                                       
                                     
-                                        <li><a class="dropdown-item" href="gallery.html">Communiqués</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo get_post_type_archive_link('event') ?>">Communiqués</a></li>
                                       
                                         <li><a class="dropdown-item" href="pricing.html">Appels d'offres</a></li>
                                        
