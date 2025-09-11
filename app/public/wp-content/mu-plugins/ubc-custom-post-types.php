@@ -19,10 +19,49 @@ function ubc_custom_post_types(){
         'has_archive' => true,
         'supports' => array( 'title', 'editor', 'excerpt' )
     );
+
+    $teacherArgs = array(
+    'public' => true,
+    'show_in_rest' => true,
+    'labels' => array(
+                    'name' => 'Teachers',
+                    'singular_name' => 'Teacher',
+                    'add_new_item' => 'Add New Teacher',
+                    'edit_item' => 'Edit Teacher',
+                    'view_item' => 'View Teacher',
+                    'all_items'=> 'All Teachers'
+                ),
+    'menu_icon' => 'dashicons-awards',
+    'rewrite'=> array(
+                    'slug' => 'teachers'
+                ),
+    'has_archive' => true,
+    'supports' => array('title', 'editor')
+);
+
+$courseArgs = array(
+    'public' => true,
+    'show_in_rest' => true,
+    'labels' => array(
+                    'name' => 'Courses',
+                    'singular_name' => 'Course',
+                    'add_new_item' => 'Add New Course',
+                    'edit_item' => 'Edit Course',
+                    'view_item' => 'View Course',
+                    'all_items'=> 'All Courses'
+                ),
+    'menu_icon' => 'dashicons-awards',
+    'rewrite'=> array(
+                    'slug' => 'courses'
+                ),
+    'has_archive' => true,
+    'supports' => array('title', 'editor')
+);
    
 
-   
+   register_post_type('teacher', $teacherArgs);
    register_post_type('event', $eventArgs);
+   register_post_type('course', $courseArgs);
     
 }
 

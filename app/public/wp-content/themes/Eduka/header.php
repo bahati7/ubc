@@ -151,7 +151,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Ressources</a>
                                     <ul class="dropdown-menu fade-down">
-                                        <li><a class="dropdown-item" href="blog.html">Cours</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo get_post_type_archive_link('course') ?>">Cours</a></li>
                                         <li><a class="dropdown-item" href="blog-single.html">Maquette nationale</a></li>
                                         <li><a class="dropdown-item" href="blog-single.html">Documents officiels</a></li>
                                     </ul>
