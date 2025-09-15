@@ -38,6 +38,60 @@ function ubc_custom_post_types(){
     'has_archive' => true,
     'supports' => array('title', 'editor')
 );
+    $departArgs = array(
+    'public' => true,
+    'show_in_rest' => true,
+    'labels' => array(
+                    'name' => 'Departements',
+                    'singular_name' => 'Departement',
+                    'add_new_item' => 'Add New Departement',
+                    'edit_item' => 'Edit Departement',
+                    'view_item' => 'View Departement',
+                    'all_items'=> 'All Departement'
+                ),
+    'menu_icon' => 'dashicons-awards',
+    'rewrite'=> array(
+                    'slug' => 'Departements'
+                ),
+    'has_archive' => true,
+    'supports' => array('title', 'editor')
+);
+ $offresArgs = array(
+    'public' => true,
+    'show_in_rest' => true,
+    'labels' => array(
+                    'name' => 'Offres',
+                    'singular_name' => 'Offre',
+                    'add_new_item' => 'Add New Offre',
+                    'edit_item' => 'Edit Offre',
+                    'view_item' => 'View Offre',
+                    'all_items'=> 'All Offres'
+                ),
+    'menu_icon' => 'dashicons-awards',
+    'rewrite'=> array(
+                    'slug' => 'offres'
+                ),
+    'has_archive' => true,
+    'supports' => array('title', 'editor')
+);
+ $galleriesArgs = array(
+    'public' => true,
+    'show_in_rest' => true,
+    'labels' => array(
+                    'name' => 'Galleries',
+                    'singular_name' => 'Gallery',
+                    'add_new_item' => 'Add New Gallery',
+                    'edit_item' => 'Edit Gallery',
+                    'view_item' => 'View Gallery',
+                    'all_items'=> 'All Galleries'
+                ),
+    'menu_icon' => 'dashicons-awards',
+    'rewrite'=> array(
+                    'slug' => 'galleries'
+                ),
+    'has_archive' => true,
+    'supports' => array('title', 'editor')
+);
 
 $courseArgs = array(
     'public' => true,
@@ -60,6 +114,9 @@ $courseArgs = array(
    
 
    register_post_type('teacher', $teacherArgs);
+   register_post_type('offre', $offresArgs);
+   register_post_type('gallery', $galleriesArgs);
+   register_post_type('departement', $departArgs);
    register_post_type('event', $eventArgs);
    register_post_type('course', $courseArgs);
     
