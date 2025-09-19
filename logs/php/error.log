@@ -6,3 +6,7 @@ Stack trace:
 [08-Sep-2025 08:55:33 UTC] PHP Warning:  Undefined array key "description" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 133
 [08-Sep-2025 08:56:58 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 125
 [08-Sep-2025 08:56:58 UTC] PHP Warning:  Undefined array key "description" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 133
+[19-Sep-2025 11:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 125
+[19-Sep-2025 11:40:10 UTC] PHP Warning:  Undefined array key "description" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 133
+[19-Sep-2025 11:40:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 125
+[19-Sep-2025 11:40:48 UTC] PHP Warning:  Undefined array key "description" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 133
