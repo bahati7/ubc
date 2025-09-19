@@ -1044,6 +1044,49 @@ get_header();?>
                     <div class="col-lg-6 mx-auto">
                         <div class="site-heading text-center">
                             <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Department</span>
+
+                            <h2 class="site-title">Voir Nos <span>Départements</span></h2>
+                            <p>Explorez nos départements, conçus pour vous garantir une formation complète et de haut niveau.</p>
+                        </div>
+                    </div>
+                </div>
+               <div class="row">
+                            <?php
+                                    //$args query arguments
+                                    $args = array(
+                                        'post_type' => 'departement',
+                                        'posts_per_page' => 3
+                                    );
+
+                                    $query = new WP_Query($args);
+
+                                    while($query->have_posts()){
+                                        $query->the_post();  ?>
+
+                                        <div class="department-item">
+                            <div class="department-icon">
+                                <?php if ( has_post_thumbnail() ) : ?>
+                                    <?php the_post_thumbnail('thumbnail'); ?>
+                                <?php else : ?>
+                                    <img src="<?php echo get_theme_file_uri('assets/img/icon/art.svg'); ?>" alt="">
+                                <?php endif; ?>
+                            </div>
+                            <div class="department-info">
+                                <h4 class="department-title">
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                </h4>
+                                <p><?php echo wp_trim_words( get_the_content(), 20 ); ?></p>
+                                <div class="department-btn">
+                                    <a href="<?php the_permalink(); ?>">Read More<i class="fas fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    <?php }
+                
+                wp_reset_postdata(); ?>
+                </div>
+
                             <h2 class="site-title">Browse Our <span>Department</span></h2>
                             <p>It is a long established fact that a reader will be distracted by the readable content of
                                 a page when looking at its layout.</p>
@@ -1112,6 +1155,7 @@ get_header();?>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <!-- department area end -->
