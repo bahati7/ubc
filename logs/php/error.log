@@ -11,3 +11,5 @@ Stack trace:
 [10-Sep-2025 12:34:10 UTC] PHP Warning:  Undefined array key "image" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 125
 [15-Sep-2025 09:30:22 UTC] PHP Warning:  Array to string conversion in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 99
 [15-Sep-2025 09:30:22 UTC] PHP Warning:  Array to string conversion in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 115
+[16-Sep-2025 11:39:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 125
+[16-Sep-2025 11:39:03 UTC] PHP Warning:  Undefined array key "description" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 133
