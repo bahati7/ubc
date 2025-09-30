@@ -62,7 +62,7 @@
             <div class="main-navigation">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container position-relative">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="<?php echo site_url();?>">
                             
                             <img src="<?php echo get_theme_file_uri('/assets/img/logo/logo.png'); ?> " alt="logo" />
                         </a>
@@ -141,9 +141,9 @@
                                      
                                       
                                     
-                                        <li><a class="dropdown-item" href="gallery.html">Communiqués</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo get_post_type_archive_link('event') ?>">Communiqués</a></li>
                                       
-                                        <li><a class="dropdown-item" href="pricing.html">Appels d'offres</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo get_post_type_archive_link('offre') ?>">Appels d'offres</a></li>
                                        
                                     </ul>
                                 </li>
@@ -151,7 +151,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Ressources</a>
                                     <ul class="dropdown-menu fade-down">
-                                        <li><a class="dropdown-item" href="blog.html">Cours</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo get_post_type_archive_link('course') ?>">Cours</a></li>
                                         <li><a class="dropdown-item" href="blog-single.html">Maquette nationale</a></li>
                                         <li><a class="dropdown-item" href="blog-single.html">Documents officiels</a></li>
                                     </ul>
