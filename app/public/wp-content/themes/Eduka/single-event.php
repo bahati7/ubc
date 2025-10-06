@@ -7,7 +7,7 @@ get_header();?>
             <div class="container">
                 <h2 class="breadcrumb-title">Nos Evénéments</h2>
                 <ul class="breadcrumb-menu">
-                    <li> <a href="<?php  echo get_post_type_archive_link('event') ?>"> Retour aux Evénéments </a></li>
+                    <li> <a href="<?php echo site_url('/past-events-archive'); ?>"> Retour aux Evénéments </a></li>
                     <li class="active"><?php the_title(); ?></li>
                 </ul>
             </div>

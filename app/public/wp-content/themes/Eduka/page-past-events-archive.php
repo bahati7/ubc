@@ -8,7 +8,6 @@ banner_image_setup( array(
 ?>
 
 
-
   <!-- event area -->
         <div class="event-area py-120">
             <div class="container">
@@ -22,9 +21,26 @@ banner_image_setup( array(
                     </div>
                 </div>
                 <div class="row">
-                    <?php
-                        while (have_posts()) {
-                            the_post(); ?>
+                  <?php
+        $date = date('Ymd');  //variable holds today’s date
+        $args = array(
+                  'paged' => get_query_var('paged'),
+                  'post_type' => 'event',
+                  'orderby' => 'meta_value',
+                  'meta_key' => 'end_date',
+                  'meta_query' => array(
+                                       array(
+                                             'key' => 'end_date',
+                                             'compare' => '<',
+                                              'value' => $date, 
+                                              'type' => 'numeric'
+                                              )
+                                  )           
+                   );
+        $pastEvents = new WP_Query($args);
+
+        while ($pastEvents->have_posts()) {
+            $pastEvents->the_post(); ?>
                     <div class="col-lg-4">
                         <div class="event-item">
                             <div class="event-location">
@@ -69,6 +85,12 @@ banner_image_setup( array(
                         </div>
                     </div>
                     <?php } wp_reset_postdata(); ?>
+                      <div class="btn-viewAll">
+                            <?php echo paginate_links(array(
+                                                        'total' => $pastEvents->max_num_pages
+                                                    )); 
+                            ?>
+                        </div>
                 </div>
              
             </div>

@@ -150,3 +150,23 @@ function banner_image_setup($args = NULL) {
 <?php
 }
 ?>
+<?php
+// Alter the main query for 'event' post type archive to show upcoming events only
+function alter_school_queries($query){
+    if( !is_admin() AND is_post_type_archive('event') AND $query->is_main_query() ){
+        $query->set( 'meta_key', 'end_date');
+        $query->set( 'orderby', 'meta_value_num');
+        $query->set( 'order', 'ASC');
+        $query->set( 'meta_query', array(
+                    array(
+                        'key' => 'end_date',
+                        'value' => date('Ymd'),
+                        'compare' => '>=',  
+                        'type' => 'DATE'
+                        )
+                    ));        
+    }
+
+}
+add_action('pre_get_posts', 'alter_school_queries');
+?>

@@ -302,200 +302,32 @@ get_header();?>
                 <div class="row">
                     <div class="col-lg-6 mx-auto">
                         <div class="site-heading text-center">
-                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Our Courses</span>
-                            <h2 class="site-title">Let's Check Our <span>Courses</span></h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its layout.</p>
+                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Nos cours</span>
+                            <h2 class="site-title">Visitez nos <span>Cours</span></h2>
+                            <p>Découvrez un aperçu des cours que nous proposons à nos étudiants au sein de nos différentes facultés.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Drama</span>
-                                <img src="assets/img/course/01.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                            </div>
-                            <div class="course-content">
-                                <div class="course-meta">
-                                    <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                    <div class="course-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(4.0)</span>
-                                    </div>
-                                </div>
-                                <h4 class="course-title">
-                                    <a href="course-single.html">Acting And Drama</a>
-                                </h4>
-                                <p class="course-text">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffer alteration in some form by injected.
-                                </p>
-                                <div class="course-bottom">
-                                    <div class="course-bottom-left">
-                                        <span><i class="far fa-users"></i>75 Seats</span>
-                                        <span><i class="far fa-clock"></i>04 Years</span>
-                                    </div>
-                                    <span class="course-price">$750</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="course-item wow fadeInUp" data-wow-delay=".50s">
-                            <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Design</span>
-                                <img src="assets/img/course/02.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                            </div>
-                            <div class="course-content">
-                                <div class="course-meta">
-                                    <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                    <div class="course-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(4.0)</span>
-                                    </div>
-                                </div>
-                                <h4 class="course-title">
-                                    <a href="course-single.html">Art And Design</a>
-                                </h4>
-                                <p class="course-text">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffer alteration in some form by injected.
-                                </p>
-                                <div class="course-bottom">
-                                    <div class="course-bottom-left">
-                                        <span><i class="far fa-users"></i>75 Seats</span>
-                                        <span><i class="far fa-clock"></i>04 Years</span>
-                                    </div>
-                                    <span class="course-price">$750</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="course-item wow fadeInUp" data-wow-delay=".75s">
-                            <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Science</span>
-                                <img src="assets/img/course/03.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                            </div>
-                            <div class="course-content">
-                                <div class="course-meta">
-                                    <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                    <div class="course-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(4.0)</span>
-                                    </div>
-                                </div>
-                                <h4 class="course-title">
-                                    <a href="course-single.html">Biology And Conservation</a>
-                                </h4>
-                                <p class="course-text">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffer alteration in some form by injected.
-                                </p>
-                                <div class="course-bottom">
-                                    <div class="course-bottom-left">
-                                        <span><i class="far fa-users"></i>75 Seats</span>
-                                        <span><i class="far fa-clock"></i>04 Years</span>
-                                    </div>
-                                    <span class="course-price">$750</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="course-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Science</span>
-                                <img src="assets/img/course/04.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                            </div>
-                            <div class="course-content">
-                                <div class="course-meta">
-                                    <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                    <div class="course-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(4.0)</span>
-                                    </div>
-                                </div>
-                                <h4 class="course-title">
-                                    <a href="course-single.html">Science And Engineering</a>
-                                </h4>
-                                <p class="course-text">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffer alteration in some form by injected.
-                                </p>
-                                <div class="course-bottom">
-                                    <div class="course-bottom-left">
-                                        <span><i class="far fa-users"></i>75 Seats</span>
-                                        <span><i class="far fa-clock"></i>04 Years</span>
-                                    </div>
-                                    <span class="course-price">$750</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="course-item wow fadeInUp" data-wow-delay=".50s">
-                            <div class="course-img">
-                                <span class="course-tag"><i class="far fa-bookmark"></i> Health</span>
-                                <img src="assets/img/course/05.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                            </div>
-                            <div class="course-content">
-                                <div class="course-meta">
-                                    <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                    <div class="course-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(4.0)</span>
-                                    </div>
-                                </div>
-                                <h4 class="course-title">
-                                    <a href="course-single.html">Health Administration</a>
-                                </h4>
-                                <p class="course-text">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffer alteration in some form by injected.
-                                </p>
-                                <div class="course-bottom">
-                                    <div class="course-bottom-left">
-                                        <span><i class="far fa-users"></i>75 Seats</span>
-                                        <span><i class="far fa-clock"></i>04 Years</span>
-                                    </div>
-                                    <span class="course-price">$750</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
+                             <?php
+                                    //$args query arguments
+                                    $args = array(
+                                        'post_type' => 'course',
+                                        'posts_per_page' => 3
+                                    );
+
+                                    $query = new WP_Query($args);
+
+                                    while($query->have_posts()){
+                                        $query->the_post();  ?>
+                    
+                     <div class="col-md-6 col-lg-4">
                         <div class="course-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="course-img">
                                 <span class="course-tag"><i class="far fa-bookmark"></i> Finance</span>
-                                <img src="assets/img/course/06.jpg" alt="">
-                                <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
+
+                                 <img src="<?php echo get_theme_file_uri('assets/img/course/01.png'); ?> " alt="logo" />
+                                <a href="<?php the_permalink(); ?>" class="btn"><i class="far fa-link"></i></a>
                             </div>
                             <div class="course-content">
                                 <div class="course-meta">
@@ -510,11 +342,16 @@ get_header();?>
                                     </div>
                                 </div>
                                 <h4 class="course-title">
-                                    <a href="course-single.html">Accounting And Finance</a>
+                                    <a href="#"><?php the_title(); ?></a>
                                 </h4>
                                 <p class="course-text">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffer alteration in some form by injected.
+                                 <?php     
+                                  if(has_excerpt()){
+                                        echo get_the_excerpt();
+                                    }
+                                    else{
+                                        echo wp_trim_words(get_the_content(), 10);
+                                    }?>
                                 </p>
                                 <div class="course-bottom">
                                     <div class="course-bottom-left">
@@ -526,6 +363,7 @@ get_header();?>
                             </div>
                         </div>
                     </div>
+                    <?php } wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>
@@ -574,78 +412,37 @@ get_header();?>
                 <div class="row">
                     <div class="col-lg-6 mx-auto">
                         <div class="site-heading text-center">
-                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Our Teachers</span>
-                            <h2 class="site-title">Meet With Our <span>Teachers</span></h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its layout.</p>
+                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Nos Enseignants</span>
+                            <h2 class="site-title">Voyez nos <span>Enseignants</span></h2>
+                            <p>Afin de vous offrir un enseignement d'excellence, nous mettons à votre disposition des enseignants aux profils variés et spécialisés.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="team-img">
-                                <img src="assets/img/team/01.jpg" alt="thumb">
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Angela T. Vigil</a></h5>
-                                    <span>Associate Professor</span>
-                                </div>
-                            </div>
-                            <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item wow fadeInUp" data-wow-delay=".50s">
-                            <div class="team-img">
-                                <img src="assets/img/team/02.jpg" alt="thumb">
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Frank A. Mitchell</a></h5>
-                                    <span>Associate Professor</span>
-                                </div>
-                            </div>
-                            <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item wow fadeInUp" data-wow-delay=".75s">
-                            <div class="team-img">
-                                <img src="assets/img/team/03.jpg" alt="thumb">
-                            </div>
-                            <div class="team-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Susan D. Lunsford</a></h5>
-                                    <span>CEO & Founder</span>
-                                </div>
-                            </div>
-                            <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
+                           <?php
+                                    //$args query arguments
+                                    $args = array(
+                                        'post_type' => 'teacher',
+                                        'posts_per_page' => 3
+                                    );
+
+                                    $query = new WP_Query($args);
+
+                                    while($query->have_posts()){
+                                        $query->the_post();  ?>
+                   
+                 
+                 <div class="col-md-6 col-lg-3">
                         <div class="team-item wow fadeInUp" data-wow-delay="1s">
                             <div class="team-img">
-                                <img src="assets/img/team/04.jpg" alt="thumb">
+                                <img class="image" src="<?php 
+                                        if (get_field('background_image')){
+                                            $backgroundImage = get_field('background_image'); 
+                                            echo $backgroundImage['url'];
+                                        }
+                                        else
+                                            echo get_theme_file_uri('assets/img/course/01.png'); 
+                                    ?>" alt="" />
                             </div>
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -655,13 +452,14 @@ get_header();?>
                             </div>
                             <div class="team-content">
                                 <div class="team-bio">
-                                    <h5><a href="teacher-single.html">Dennis A. Pruitt</a></h5>
-                                    <span>Associate Professor</span>
+                                    <h5><a href="#"><?php the_title()?></a></h5>
+                                    <span><?php the_field('description')?></span>
                                 </div>
                             </div>
-                            <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
+                            <span class="team-social-btn"> <a href="<?php the_permalink()?>"><i class="far fa-share-nodes"></i></a></span>
                         </div>
                     </div>
+                    <?php } wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>
@@ -746,85 +544,55 @@ get_header();?>
         <!-- choose-area end -->
 
 
-        <!-- gallery-area -->
-        <div class="gallery-area py-120">
+       <!-- gallery-area -->
+        <div class="team-area py-120">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mx-auto">
                         <div class="site-heading text-center">
-                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Gallery</span>
-                            <h2 class="site-title">Our Photo <span>Gallery</span></h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its layout.</p>
+                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Nos Enseignants</span>
+                            <h2 class="site-title">Notre photo <span>Gallerie</span></h2>
+                            <p>Explorez nos moments d'apprentissage et nos expériences en classe en images.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row popup-gallery">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay=".25s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/01.jpg" alt="">
+                <div class="row">
+                           <?php
+                                    //$args query arguments
+                                    $args = array(
+                                        'post_type' => 'gallery',
+                                        'posts_per_page' => 10
+                                    );
+
+                                    $query = new WP_Query($args);
+
+                                    while($query->have_posts()){
+                                        $query->the_post();  ?>
+                   
+                 
+                 <div class="col-md-6 col-lg-3">
+                        <div class="team-item wow fadeInUp" data-wow-delay="1s">
+                            <div class="team-img">
+                                <img class="image" src="<?php 
+                                        if (get_field('background_image')){
+                                            $backgroundImage = get_field('background_image'); 
+                                            echo $backgroundImage['url'];
+                                        }
+                                        else
+                                            echo get_theme_file_uri('assets/img/course/01.png'); 
+                                    ?>" alt="" />
                             </div>
-                            <div class="gallery-content">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/01.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/02.jpg" alt="">
-                            </div>
-                            <div class="gallery-content">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/02.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay=".50s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/03.jpg" alt="">
-                            </div>
-                            <div class="gallery-content">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/03.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/04.jpg" alt="">
-                            </div>
-                            <div class="gallery-content">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/04.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
+                         
+                         
+                            <span class="team-social-btn"> <a href="<?php the_permalink()?>"><i class="far fa-share-nodes"></i></a></span>
                         </div>
                     </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay=".75s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/05.jpg" alt="">
-                            </div>
-                            <div class="gallery-content">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/05.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="assets/img/gallery/06.jpg" alt="">
-                            </div>
-                            <div class="gallery-content">
-                                <a class="popup-img gallery-link" href="assets/img/gallery/06.jpg"><i
-                                        class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>
-        <!-- gallery-area end -->
-
+        <!-- Gallery end -->
+        
 
         <!-- cta-area -->
         <div class="cta-area">
@@ -851,99 +619,69 @@ get_header();?>
 
 
         <!-- event area -->
+         <?php
+       $date = date('Ymd'); // variable holds today’s date in the correct Ymd numeric format
+
+            $args = array(
+                'posts_per_page' => 5,
+                'post_type'      => 'event',
+                'meta_key'       => 'end_date',
+                'meta_compare'   => '>=',
+                'meta_value'     => $date,
+                'meta_type'      => 'NUMERIC', // <-- **THIS IS THE CRITICAL FIX**
+                'orderby'        => 'meta_value_num',
+                'order'          => 'ASC'
+            );
+                $upcomingEvents = new WP_Query($args);
+                ?>
         <div class="event-area bg py-120">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mx-auto">
                         <div class="site-heading text-center">
-                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Events</span>
-                            <h2 class="site-title">Our Upcoming <span>Events</span></h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its layout.</p>
+                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Evenements</span>
+                            <h2 class="site-title">Nos Programmes <span>Événements</span></h2>
+                            <p>Nous organisons des événements académiques et institutionnels pour enrichir l'apprentissage.</p>
                         </div>
                     </div>
                 </div>
-                <div class="event-slider owl-carousel owl-theme">
+                <div class="row">
+                  
+                     <?php
+                        while($upcomingEvents -> have_posts()){
+                        $upcomingEvents->the_post(); 
+                        $date = new DateTime(get_field('end_date'));?>
+                     <div class="col-lg-4">
                     <div class="event-item">
                         <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
+                            <span><i class="far fa-map-marker-alt"></i> <?php echo get_field('event_location');?></span>
                         </div>
+                        
                         <div class="event-img">
-                            <img src="assets/img/event/01.jpg" alt="">
+                            <img src="<?php 
+                                        if (get_field('background_image')){
+                                            $backgroundImage = get_field('background_image'); 
+                                            echo $backgroundImage['url'];
+                                        }
+                                        else
+                                            echo get_theme_file_uri('assets/img/course/01.png'); 
+                                    ?>" alt="">
                         </div>
                         <div class="event-info">
                             <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
+                                <span class="event-date"><i class="far fa-calendar-alt"></i><?php echo $date->format('M'); ?>, <?php echo $date->format('d'); ?> <?php echo $date->format('Y'); ?></span>
+                                <span class="event-time"><i class="far fa-clock"></i><?php echo get_field('event_time');?></span>
                             </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
+                            <h4 class="event-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                            <p><?php echo wp_trim_words(get_the_content(), 15); ?></p>
                             <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i
+                                <a href="<?php the_permalink(); ?>" class="theme-btn">Rejoindre<i
                                         class="fas fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="event-item">
-                        <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
                         </div>
-                        <div class="event-img">
-                            <img src="assets/img/event/02.jpg" alt="">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
-                            </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i
-                                        class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-item">
-                        <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
-                        </div>
-                        <div class="event-img">
-                            <img src="assets/img/event/03.jpg" alt="">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
-                            </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i
-                                        class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-item">
-                        <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
-                        </div>
-                        <div class="event-img">
-                            <img src="assets/img/event/04.jpg" alt="">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
-                            </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i
-                                        class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>
@@ -1084,77 +822,12 @@ get_header();?>
 
                     <?php }
                 
-                wp_reset_postdata(); ?>
+                        wp_reset_postdata(); ?>
                 </div>
 
-                            <h2 class="site-title">Browse Our <span>Department</span></h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its layout.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="department-slider owl-carousel owl-theme">
-                    <div class="department-item">
-                        <div class="department-icon">
-                            <img src="assets/img/icon/monitor.svg" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Business And Finance</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="department-item">
-                        <div class="department-icon">
-                            <img src="assets/img/icon/law.svg" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Law And Criminology</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="department-item">
-                        <div class="department-icon">
-                            <img src="assets/img/icon/data.svg" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">IT And Data Science</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="department-item">
-                        <div class="department-icon">
-                            <img src="assets/img/icon/health.svg" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Health And Medicine</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="department-item">
-                        <div class="department-icon">
-                            <img src="assets/img/icon/art.svg" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Art And Design</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        
+                   
+         
 
             </div>
         </div>

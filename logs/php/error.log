@@ -20,3 +20,5 @@ Stack trace:
 [16-Sep-2025 11:39:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 125
 [16-Sep-2025 11:39:03 UTC] PHP Warning:  Undefined array key "description" in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\functions.php on line 133
 >>>>>>> 53d1e7cefc350f1055b17910db30d9a4cffb1535
+[02-Oct-2025 12:10:14 UTC] PHP Warning:  Undefined variable $relatedCourses in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\single-course.php on line 58
+[02-Oct-2025 12:10:14 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Philemon_Dev\Local Sites\ubc\app\public\wp-content\themes\Eduka\single-course.php on line 58

@@ -40,13 +40,36 @@ get_header();?>
                                     <h4 class="widget-title">Course Info</h4>
                                     <div class="course-single-info">
                                         <div class="single-info author">
-                                            <div class="author-img">
-                                                <img src=" <?php echo get_theme_file_uri('assets/img/course/teacher.jpg'); ?>" alt="#">
-                                            </div>
-                                            <div class="single-info-content">
-                                                <h4>Teacher</h4>
-                                                <span>Frank Mitchel</span>
-                                            </div>
+                                            <?php 
+                                                $relatedTeachers = get_field('related_teachers');
+                                                if($relatedTeachers){?>
+                                                    
+                                                   
+                                                    <?php
+                                                    foreach( $relatedTeachers as $teacher){
+                                                         $teacher_id = $teacher->ID;
+                                                          $profileImage = get_field('background_image', $teacher_id);
+                                                          $image_url = $profileImage['url'] ?? get_theme_file_uri('assets/img/course/01.png');
+                                                        ?>
+                                                        <div class="author-img">
+                                                            <img 
+                                                                src="<?php echo esc_url($image_url); ?>" 
+                                                                alt="<?php echo esc_attr(get_the_title($teacher_id)); ?>"
+                                                            >
+                                                        </div>
+                                                            <div class="single-info-content">
+                                                                
+                                                                <h4>Teacher</h4>
+                                                            
+                                                                <span> <a href="<?php echo get_the_permalink($teacher); ?>"><?php echo get_the_title($teacher); ?> </a></span>
+                                                            </div>
+                                                    <?php
+                                                    }
+                                                }
+                                                ?>
+
+                                        
+                                        
                                         </div>
                                         <div class="single-info category">
                                             <i class="far fa-bolt"></i>
